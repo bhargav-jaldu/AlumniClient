@@ -1,0 +1,9 @@
+.container {
+  padding: 20px 40px;
+  background: #4f44e0;
+  color: #eee;
+}
+
+button {
+  cursor: pointer;
+}

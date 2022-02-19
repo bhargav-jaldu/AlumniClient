@@ -16,7 +16,6 @@ const HomePage = () => {
   return (
     <div className={styles.container}>
         <h1>The Internet Clipboard</h1>
-        <h3>VIT ALUMNI TASK</h3>
         <div className={styles.imageContainer}>
             <img src="https://vitap.ac.in/wp-content/uploads/2020/07/AB2.jpg" alt="Vitap image" />
         </div>

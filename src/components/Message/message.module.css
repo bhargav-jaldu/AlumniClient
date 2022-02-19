@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .container > * {
@@ -13,9 +13,26 @@
 .container textarea {
   padding: 10px 20px;
   font-size: 20px;
+  border: none;
+  outline: none;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+.container button {
+  margin: 0;
 }
 
 .container select {
   padding: 10px;
   margin-left: 20px;
+}
+
+.container h1 {
+  font-size: 50px;
+  color: #07bc0c;
+  opacity: 0.6;
+}
+.container h3 {
+  color: #ccc;
 }

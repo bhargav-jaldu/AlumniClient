@@ -78,13 +78,13 @@ const Message = () => {
             <textarea cols="70" rows="10" placeholder="type..." ref={inputEl}></textarea><br />
             <button>Create</button>
 
-            <p>Destory Clipboard After home Many Minutes</p>
-            <select value={select} onChange={(e) => setSelect(e.target.value)}>
+            {/* <p>Destory Clipboard After home Many Minutes</p> */}
+            {/* <select value={select} onChange={(e) => setSelect(e.target.value)}>
                 <option>Dont Remove</option>
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
-            </select>
+            </select> */}
         </form>
     </div>
   )
